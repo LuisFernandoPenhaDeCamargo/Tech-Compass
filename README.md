@@ -23,31 +23,35 @@ O Tech Compass é um repositório de referência projetado para facilitar tanto 
 2. [Linguagens de Programação, Scripting, Marcação e Estilização](./2-linguagens-programacao-scripting-marcacao-estilizacao/linguagens-programacao-scripting-marcacao-estilizacao.md)  
     Esta categoria abrange linguagens de programação e scripting, que possibilitam o desenvolvimento de aplicações e a automação de processos, bem como linguagens de marcação e estilização, que estruturam e embelezam conteúdos web, além de linguagens de marcação utilizadas para formatação de textos e documentação.
 3. [Ambiente de Desenvolvimento e Ferramentas](./3-ambiente-desenvolvimento-ferramentas/ambiente-desenvolvimento-ferramentas.md)  
-    Esta categoria reúne os recursos essenciais para configurar e otimizar seu ambiente de desenvolvimento, incluindo editores de código, IDEs, gerenciadores de versões, gerenciadores de pacotes e ferramentas de monitoramento de processos.
+    Esta categoria reúne os recursos para configurar e otimizar seu ambiente de desenvolvimento, incluindo editores de código, IDEs, gerenciadores de versões, gerenciadores de pacotes e ferramentas de monitoramento de processos.
+4. [Controle de Versão e Colaboração](./4-controle-versao-colaboracao/controle-versao-colaboracao.md)  
+    Esta categoria reúne as ferramentas e práticas para o gerenciamento do código-fonte e para o trabalho colaborativo. Ela aborda os sistemas de controle de versão que registram e organizam as alterações do código ao longo do tempo – como o Git – e explora os fluxos de trabalho colaborativos, que facilitam a integração e revisão de contribuições em equipe por meio de plataformas como GitHub e GitLab.
+5. [Banco de Dados e Persistência de Dados](./5-banco-dados-persistencia-dados/banco-dados-persistencia-dados.md)  
+    Esta categoria explora os conceitos e práticas fundamentais para a modelagem, armazenamento e recuperação de dados. Abrange desde bancos de dados relacionais até soluções NoSQL, enfatizando técnicas de otimização de consultas e estratégias para garantir a persistência e integridade das informações em aplicações modernas.
+6. [Arquitetura de Software](./6-arquitetura-software/arquitetura-software.md)  
+    Esta categoria explora os princípios e práticas que definem a estrutura dos sistemas de software. Ela abrange desde as abordagens arquiteturais (como monolítico, em camadas, orientado a serviços e microsserviços) até as decisões de design que garantem escalabilidade, robustez e manutenção eficiente dos sistemas.
+7. [Padrões de Projeto](./7-padroes-projeto/padroes-projeto.md)  
+    Esta categoria reúne soluções reutilizáveis e comprovadas para problemas recorrentes no design de software. Ela apresenta padrões clássicos – como Singleton, Factory, Observer, Strategy, entre outros – que oferecem estratégias eficazes para construir sistemas robustos, flexíveis e de fácil manutenção.
+8. [Padrões de Desenvolvimento e Boas Práticas](./8-padroes-desenvolvimento-boas-praticas/padroes-desenvolvimento-boas-praticas.md)
+    Esta categoria reúne padrões de desenvolvimento e boas práticas que visam garantir a qualidade, a manutenibilidade e a escalabilidade do código. Ela explora diretrizes como os princípios SOLID, técnicas de Clean Code e estratégias de refatoração, oferecendo soluções práticas para construir sistemas robustos e eficientes.
+9. [Metodologias de Desenvolvimento](9-metodologias-desenvolvimento/metodologias-desenvolvimento.md)  
 
 <!--
-4. Controle de Versão e Colaboração  
-    Ensinas práticas e ferramentas de controle de versão (Git, GitHub, GitLab) e metodologias colaborativas para desenvolvimento de software.
-5. Banco de Dados e Persistência de Dados  
-    Cobrir conceitos de modelagem, bancos relacionais e NoSQL, otimização de queries e estratégias de persistência de dados.
-6. Arquitetura de Software e Design de Sistemas  
-    Explorar padrões arquiteturais, escalabilidade, distribuição e estratégias de design de sistemas para aplicações modernas.
-7. Padrão de Desenvolvimento e Boas Práticas  
-    Ensinar princípios como SOLID, Clean Code e práticas recomendadas para escrever código sustentável e eficiente.
-    - Metodologias de testes e qualidade de código
-        + TDD
-        + BDD
-8. Metodologias e Processos de Desenvolvimento  
-    Apresentar metodologias ágeis, DevOps, CI/CD e estratégias para desenvolvimento eficiente e iterativo de software.
-9. Infraestrutura, Redes e Segurança  
+Não sei, DevOps e CI/CD se encaixam bem aqui? 
+
+Sobre a descrição, lembresse que TDD e BDD também fazer parte desta categoria
+
+Em qual categoria poderiamos pontuar sobre testes em si, ex: Testes Automatizados, Testes Unitários, entre outros
+10. Infraestrutura, Redes e Segurança  
     Abordar redes, protocolos, virtualizaçãom containêres, segurança da informação e práticas de proteção de aplicações.
     - Virtualização e conteinerização
         + VM
         + Docker
-10. Computação em Nuvem e Serviços Cloud  
+11. Computação em Nuvem e Serviços Cloud  
     Explorar provedores de nuvem (AWS, Azure, GCP), modelos de computação em nuvem e arquiteturas serverless.
-11. Sistemas Operacionais e Arquiteturas de Computadores  
+12. Sistemas Operacionais e Arquiteturas de Computadores  
     Explicar o funcionamento de sistemas operacionais e os princípios de arquitetura de computadores, incluindo gerenciamento de memória, processos e sistemas de arquivos.
+- ORM
 -->
 
 ## Contribuição
