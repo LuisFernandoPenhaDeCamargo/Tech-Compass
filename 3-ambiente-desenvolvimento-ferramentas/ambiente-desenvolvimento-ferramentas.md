@@ -10,4 +10,4 @@
 - Ferramentas de Monitoramento de Processos: Definição e Aplicações
 - Cron: Automatizando Tarefas no Sistema
 
-## [[ Voltar para: README ]](../README.md#ambiente-desenvolvimento-ferramentas#ambiente-desenvolvimento-ferramentas)
+## [[ Voltar para: README ]](../README.md#ambiente-desenvolvimento-ferramentas)
