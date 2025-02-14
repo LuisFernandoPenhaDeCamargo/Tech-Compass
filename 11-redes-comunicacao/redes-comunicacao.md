@@ -2,4 +2,4 @@
 
 ## Sumário
 
-## [[ Voltar para: README ]](../README.md)
+## [[ Voltar para: README ]](../README.md#redes-comunicacao)

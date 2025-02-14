@@ -9,4 +9,4 @@
 - Linguagens de Marcação: Estrutura, Finalidades e Exemplos
 - Linguagens de Estilização: Conceitos e Aplicações no Design Web
 
-## [[ Voltar para: README ]](../README.md)
+## [[ Voltar para: README ]](../README.md#fundamentos-ciencia-computacao)
