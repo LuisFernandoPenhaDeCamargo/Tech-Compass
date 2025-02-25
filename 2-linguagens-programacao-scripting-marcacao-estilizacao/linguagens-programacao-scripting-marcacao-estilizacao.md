@@ -27,12 +27,11 @@ A definição dos termos – como "linguagem de programação", "linguagem compi
 
 - Python
 - JavaScript
-<!--
-Conteúdo:
-- NVM
-- NPM
-- PM2
--->
+    <!--
+    + NVM
+    + NPM
+    + PM2
+    -->
 - Clojure
 
 ## <a id="linguagens-scripting">Linguagens de Scripting</a>

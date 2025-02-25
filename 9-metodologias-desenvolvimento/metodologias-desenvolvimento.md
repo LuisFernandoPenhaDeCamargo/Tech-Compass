@@ -1,5 +1,7 @@
 # Metodologias de Desenvolvimento
 
+Este índice está organizado em três subcategorias, cada uma refletindo uma dimensão das metodologias de desenvolvimento. A subcategoria Frameworks Ágeis agrupa métodos que estruturam a gestão e execução de projetos de forma iterativa e colaborativa. A subcategoria Técnicas de Teste reúne práticas destinadas a garantir a qualidade e a confiabilidade do software por meio da validação contínua do código. Por fim, a subcategoria Integração e Entrega Contínua/DevOps abrange abordagens que automatizam o ciclo de desenvolvimento e facilitam a colaboração entre as equipes de desenvolvimento e operações, promovendo a entrega contínua de valor.
+
 ## Sumário
 
 1. Frameworks Ágeis
