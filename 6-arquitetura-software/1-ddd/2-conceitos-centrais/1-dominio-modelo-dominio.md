@@ -1,0 +1,8 @@
+# Domínio e Modelo de Domínio
+
+- **Domínio:** é a área de conhecimento ou atividade que o software se propõe a resolver ou automatizar. Trata-se do conjunto de problemas, regras e processos específicos de um determinado negócio ou contexto. Por exemplo, no setor bancário, o domínio envolve operações financeiras, regras de crédito, transações, entre outros aspectos
+- **Modelo de Domínio:** é a representação conceitual do domínio, construída por meio de abstrações (como entidades, objetos de valor, serviços, etc., as quais serão explicadas na seção [Componentes Táticos](../3-componentes-taticos/componentes-taticos.md)) que capturam a essência e as regras do negócio. Esse modelo serve de base para o desenvolvimento do software, garantindo que a aplicação reflita fielmente os conceitos e processos do domínio. Ele é frequentemente elaborado em colaboração entre especialistas do negócio e desenvolvedores, utilizando uma linguagem ubíqua que todos compreendam
+
+Em resumo, enquanto o **domínio representa o contexto e os problemas que o software busca resolver, o modelo de domínio traduz esse conhecimento em uma estrutura conceitual que orienta a implementação e a evolução do sistema**. Para compreender melhor esses conceitos, exemplos serão apresentados ao final da seção [Componentes Táticos](../3-componentes-taticos/componentes-taticos.md).
+
+## [[ Voltar para: Conceitos Centrais ]](./conceitos-centrais.md#dominio-modelo-dominio)
