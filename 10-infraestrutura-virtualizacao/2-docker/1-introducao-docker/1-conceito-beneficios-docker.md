@@ -15,6 +15,9 @@ TODO:
 
 - [O que é Docker?](#docker)
 - [Para que serve o Docker?](#para-serve-docker)
+- [Principais Conceitos de Docker](#principais-conceitos-docker)
+- [Benefícios do Docker](#beneficios-docker)
+- [Conclusão](#conclusao)
 
 ## <a id="docker">O que é Docker?</a>
 
@@ -69,47 +72,30 @@ O Docker tem diversas aplicações práticas no desenvolvimento, entrega e opera
 - **Solução:** com ferramentas como **Docker Swarm** ou **Kubernetes**, é possível replicar e escalar contêineres de maneira automatizada, ajustando a capacidade conforme a demanda
 - **Exemplo:** uma aplicação de e-commerce pode iniciar com apenas uma instância de um contêiner e, em momentos de alta demanda, escalar automaticamente para dez ou mais instâncias
 
-<!-- SA: retomar a elaboração do tópico a partir do subtópico abaixo. -->
+## <a id="principais-conceitos-docker">Principais Conceitos de Docker</a>
 
-## Benefícios do Docker  
+Para entender melhor o Docker, é importante conhecer alguns conceitos fundamentais:
 
-A adoção do Docker traz diversas vantagens para o desenvolvimento, implantação e manutenção de aplicações. Alguns dos principais benefícios incluem:  
+| Conceito     | Descrição                                                                                 |
+|:-------------|:------------------------------------------------------------------------------------------|
+| Contêiner    | Unidade de software que agrupa a aplicação e todas as suas dependências                   |
+| Imagem       | Modelo imutável usado para criar contêineres (base a partir da qual o contêiner é gerado) |
+| Dockerfile   | Arquivo de script que define as instruções para construir uma imagem Docker               |
+| Docker Hub   | Repositório público onde imagens Docker são armazenadas e compartilhadas                  |
+| Volume       | Espaço de armazenamento persistente para salvar dados fora do contêiner                   |
+| Rede         | Mecanismo que possibilita a comunicação entre contêineres e o host                        |
+| Orquestração | Ferramentas para gerenciar múltiplos contêineres, como Docker Swarm e Kubernetes          |
 
-### 1. **Portabilidade e Consistência**  
-Os containers Docker garantem que uma aplicação funcione da mesma maneira em diferentes ambientes, eliminando problemas de compatibilidade entre máquinas. Se um software roda em um container no ambiente de desenvolvimento, ele rodará da mesma forma em produção.  
+## <a id="beneficios-docker">Benefícios do Docker</a>
 
-🔹 **Exemplo:** Uma equipe desenvolve uma aplicação web localmente usando um container Docker. Quando essa aplicação é enviada para um servidor de produção, o container garante que ela funcione exatamente como no ambiente de desenvolvimento.  
+- **Portabilidade:** os contêineres funcionam de forma idêntica em qualquer ambiente com Docker instalado, garantindo compatibilidade entre os ambientes de desenvolvimento e produção
+- **Isolamento:** cada contêiner mantém sua própria aplicação e dependências separadas, evitando conflitos entre diferentes projetos
+- **Eficiência de recursos:** os contêineres compartilham o sistema operacional, consumindo menos memória e iniciando mais rapidamente do que as máquinas virtuais
+- **Escalabilidade:** facilita a criação e replicação de contêineres, permitindo expandir a capacidade do aplicativo de forma rápida e eficiente
 
-### 2. **Eficiência e Menor Consumo de Recursos**  
-Diferente das máquinas virtuais, que carregam um sistema operacional inteiro, os containers compartilham o kernel do sistema operacional do host. Isso reduz drasticamente o consumo de recursos, permitindo que várias aplicações sejam executadas simultaneamente sem desperdício de processamento e memória.  
+## <a id="conclusao">Conclusão</a>
 
-🔹 **Exemplo:** Um servidor que poderia rodar apenas duas máquinas virtuais pode executar **vários containers**, otimizando o uso de CPU e RAM.  
-
-### 3. **Escalabilidade Facilitada**  
-O Docker simplifica a escalabilidade horizontal de aplicações. Com ferramentas como **Docker Compose** e **Docker Swarm**, é possível gerenciar múltiplos containers e distribuir cargas automaticamente, garantindo alta disponibilidade.  
-
-🔹 **Exemplo:** Um site de e-commerce pode aumentar o número de containers durante a Black Friday para suportar um alto volume de acessos e reduzir novamente depois do evento.  
-
-### 4. **Rapidez no Desenvolvimento e Implantação**  
-Os containers são leves e iniciam rapidamente, tornando os processos de desenvolvimento e implantação mais ágeis. Além disso, permitem o uso de **integração contínua e entrega contínua (CI/CD)**, reduzindo o tempo entre a escrita do código e a disponibilização da aplicação para os usuários.  
-
-🔹 **Exemplo:** Em um fluxo CI/CD, o código atualizado é automaticamente empacotado em um novo container e implantado em produção em poucos segundos.  
-
-### 5. **Isolamento de Ambientes e Maior Segurança**  
-Cada container é isolado do sistema operacional do host e de outros containers, evitando conflitos entre aplicações e aumentando a segurança. Além disso, é possível configurar permissões e restrições para cada container, garantindo que apenas os serviços necessários tenham acesso a determinados recursos.  
-
-🔹 **Exemplo:** Um banco de dados pode ser executado em um container isolado para evitar que aplicações externas tenham acesso direto aos seus arquivos.  
-
-### 6. **Facilidade de Manutenção e Reprodutibilidade**  
-Docker permite que um ambiente de desenvolvimento completo seja descrito em um arquivo de configuração, chamado **Dockerfile**. Isso facilita a reprodutibilidade, pois qualquer desenvolvedor pode recriar o mesmo ambiente com um simples comando.  
-
-🔹 **Exemplo:** Uma equipe de desenvolvimento pode configurar um **Dockerfile** contendo todas as dependências do projeto. Qualquer novo membro da equipe pode rodar `docker build` e ter o ambiente pronto rapidamente.  
-
----
-
-## Conclusão  
-
-Docker revolucionou a forma como aplicações são desenvolvidas, testadas e implantadas. Com seus containers leves, portáveis e eficientes, ele permite que equipes de desenvolvimento **trabalhem com mais agilidade**, reduzam custos operacionais e garantam a consistência entre diferentes ambientes.  
+Docker revolucionou a forma como aplicações são desenvolvidas, testadas e implantadas. Com seus contêineres leves, portáveis e eficientes, ele permite que equipes de desenvolvimento trabalhem com mais agilidade, reduzam custos operacionais e garantam a consistência entre diferentes ambientes.
 
 Ao adotar Docker, empresas podem melhorar sua produtividade, reduzir falhas na implantação e tornar suas aplicações mais escaláveis e seguras.
 
