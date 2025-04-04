@@ -6,6 +6,7 @@ Obrigado por contribuir com o Tech Compass! Este documento contém diretrizes e 
 
 > **Nota:** antes de começar a elaborar novos conteúdos para o repositório, visualize o objetivo do tema ou da seção que deseja adicionar. 
 Isso ajudará você a entender como ele contribuirá para o aprendizado ou para consultas rápidas, garantindo clareza no que será elaborado.
+
 > **Nota:** um fluxo de desenvolvimento eficaz consiste, primeiramente, em aprender e compreender os conceitos fundamentais, avançando gradualmente, e, somente depois, em estudar as boas práticas para aplicar o conhecimento de forma mais eficiente e segura.
 
 1. Leia os [objetivos do repositório](./README.md#objetivos-repositorio) para compreender o propósito geral

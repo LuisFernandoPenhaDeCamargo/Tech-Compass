@@ -9,7 +9,6 @@
 03. <a id="arquitetura-docker">[Arquitetura do Docker](./3-arquitetura-docker/arquitetura-docker.md)</a>  
     Entender a estrutura interna do Docker (imagens, contêineres, registries, etc.).
 04. <a id="criacao-gerenciamento-imagens">[Criação e Gerenciamento de Imagens](./4-criacao-gerenciamento-imagens/criacao-gerenciamento-imagens.md)</a>  
-    
     Aprender a construir imagens com Dockerfile, explorar a estrutura interna das imagens e publicá-las.
 05. <a id="gerenciamento-conteineres">[Gerenciamento de Contêineres](./5-gerenciamento-conteineres/gerenciamento-conteineres.md)</a>  
     Rodar, parar, atualizar e monitorar contêineres.
