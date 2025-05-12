@@ -1,13 +1,12 @@
 # Guia de Contribuição
 
-Obrigado por contribuir com o Tech Compass! Este documento contém diretrizes e recursos para ajudá-lo a criar conteúdo de forma consistente e alinhada com os objetivos do repositório.
+Obrigado por contribuir com o **Tech Compass**! Por favor, certifique-se de que o conteúdo esteja alinhado aos objetivos do repositório e de que seu formato respeite as diretrizes estabelecidas.
 
 ## Como Contribuir
 
-> **Nota:** antes de começar a elaborar novos conteúdos para o repositório, visualize o objetivo do tema ou da seção que deseja adicionar. 
-Isso ajudará você a entender como ele contribuirá para o aprendizado ou para consultas rápidas, garantindo clareza no que será elaborado.
+> **Nota 1:** antes de elaborar novos conteúdos, reflita sobre o objetivo do material que deseja adicionar e de que forma ele pode enriquecer o repositório, contribuindo para o aprendizado ou servindo como referência rápida.
 
-> **Nota:** um fluxo de desenvolvimento eficaz consiste, primeiramente, em aprender e compreender os conceitos fundamentais, avançando gradualmente, e, somente depois, em estudar as boas práticas para aplicar o conhecimento de forma mais eficiente e segura.
+> **Nota 2:** um fluxo de aprendizado eficaz concentra-se primeiro na compreensão dos **conceitos fundamentais**, progride para **tópicos mais complexos** e, somente então, avança para **otimizações**, **boas práticas**, **documentação** e **ferramentas relacionadas**.
 
 1. Leia os [objetivos do repositório](./README.md#objetivos-repositorio) para compreender o propósito geral
 2. Utilize os recursos disponíveis na categoria [Template](./template/template.md) para estruturar seu conteúdo
@@ -24,15 +23,15 @@ Isso ajudará você a entender como ele contribuirá para o aprendizado ou para 
 ## Processo de Revisão
 
 - Todas as contribuições serão revisadas pelos mantenedores do repositório
-- Se houver dúvidas ou sugestões, você será notificado para realizar os ajustes necessários antes da integração
+- Caso haja dúvidas ou sugestões, você será notificado para realizar os ajustes necessários antes da aprovação
 
 ## Código de Conduta
 
 - Mantenha um ambiente colaborativo e respeitoso
-- Comportamentos inadequados poderão resultar na exclusão da contribuição ou na restrição de acesso ao repositório
+- Comportamentos inadequados poderão resultar na rejeição da contribuição ou na restrição de acesso ao repositório
 
 ## Dúvidas?
 
-Entre em contato ou abra uma **issue** para discutir sua ideia antes de começar.
+Abra uma **issue** ou entre em contato para discutir sua ideia antes de começar.
 
 ## [[ Voltar para: README ]](./README.md)

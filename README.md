@@ -5,7 +5,7 @@ Diretrizes pessoais de contribuição:
 
 # Tech Compass
 
-O Tech Compass é um repositório de <a id="objetivos-repositorio">referência projetado para facilitar tanto consultas rápidas quanto o aprendizado contínobjetivos-repositoriouo</a>. Ele foi estruturado para auxiliar você a relembrar conceitos e aprofundar o conhecimento em diversas áreas da tecnologia – desde os fundamentos da Ciência da Computação até as práticas avançadas em Computação em Nuvem. Com uma progressão linear que respeita a complexidade e a dependência dos temas, este guia serve tanto para iniciantes quanto para profissionais que buscam se atualizar e expandir suas habilidades tecnológicas.
+O Tech Compass é um repositório de <a id="objetivos-repositorio">referência projetado para facilitar tanto consultas rápidas quanto o aprendizado contínuo</a>. Ele foi estruturado para auxiliar você a relembrar conceitos e aprofundar o conhecimento em diversas áreas da tecnologia – desde os fundamentos da Ciência da Computação até as práticas avançadas em Computação em Nuvem. Com uma progressão linear que respeita a complexidade e a dependência dos temas, este guia serve tanto para iniciantes quanto para profissionais que buscam se atualizar e expandir suas habilidades tecnológicas.
 
 ## Como Navegar no Repositório
 
