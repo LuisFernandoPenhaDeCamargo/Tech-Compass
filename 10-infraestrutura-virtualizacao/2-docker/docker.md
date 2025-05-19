@@ -28,5 +28,9 @@
     Aplicar o conhecimento em cenários reais e integrar Docker a fluxos de trabalho maiores.
 13. <a id="documentacao">[Documentação](./13-documentacao/documentacao.md)</a>  
     Reunir todas as informações e referências para facilitar o acesso e atualização do conhecimento.
+14. <a id="ferramentas-complementares">[Ferramentas Complementares](./14-ferramentas-complementares/ferramentas-complementares.md)</a>  
+    Conjunto de utilitários que estendem e simplificam a experiência com Docker, desde a instalação e gestão visual até a análise de imagens e segurança.
+15. <a id="material-complementar">[Material Complementar](./15-material-complementar/material-complementar.md)</a>  
+    Seleção de recursos externos que enriquecem o aprendizado e oferecem aprofundamento prático no uso do Docker.
 
 ## [[ Voltar para: Infraestrutura e Virtualização ]](../infraestrutura-virtualizacao.md#docker)

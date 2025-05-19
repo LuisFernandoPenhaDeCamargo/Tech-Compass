@@ -13,24 +13,9 @@ TODO:
 
 ## Sumário
 
-- [O que é Docker?](#docker)
 - [Para que serve o Docker?](#para-serve-docker)
-- [Principais Conceitos de Docker](#principais-conceitos-docker)
 - [Benefícios do Docker](#beneficios-docker)
 - [Conclusão](#conclusao)
-
-## <a id="docker">O que é Docker?</a>
-
-**Docker** é uma plataforma de código aberto que permite empacotar e executar aplicações de forma isolada em contêineres (**plataforma de conteinerização**). Contêineres são ambientes independentes que incluem todas as dependências necessárias para a execução de uma aplicação, incluindo:
-
-- **Código-fonte** da aplicação
-- **Dependências** (bibliotecas, pacotes, etc.)
-- **Variáveis de ambiente**
-- **Configurações de sistema**
-
-Essa abordagem garante que o software funcione de maneira consistente em qualquer ambiente, seja no desenvolvimento local, em servidores ou na nuvem.
-
-Ao contrário das máquinas virtuais (VMs), que replicam um sistema operacional completo para cada instância, os contêineres compartilham o mesmo kernel do sistema operacional do host. Isso os torna **mais leves, rápidos e eficientes**, reduzindo o consumo de recursos e melhorando a escalabilidade das aplicações.
 
 ## <a id="para-serve-docker">Para que serve o Docker?</a>
 
@@ -71,20 +56,6 @@ O Docker tem diversas aplicações práticas no desenvolvimento, entrega e opera
 - **Problema:** escalar uma aplicação manualmente exige a configuração de novos servidores e ambientes, tornando o processo demorado e complexo
 - **Solução:** com ferramentas como **Docker Swarm** ou **Kubernetes**, é possível replicar e escalar contêineres de maneira automatizada, ajustando a capacidade conforme a demanda
 - **Exemplo:** uma aplicação de e-commerce pode iniciar com apenas uma instância de um contêiner e, em momentos de alta demanda, escalar automaticamente para dez ou mais instâncias
-
-## <a id="principais-conceitos-docker">Principais Conceitos de Docker</a>
-
-Para entender melhor o Docker, é importante conhecer alguns conceitos fundamentais:
-
-| Conceito     | Descrição                                                                                 |
-|:-------------|:------------------------------------------------------------------------------------------|
-| Contêiner    | Unidade de software que agrupa a aplicação e todas as suas dependências                   |
-| Imagem       | Modelo imutável usado para criar contêineres (base a partir da qual o contêiner é gerado) |
-| Dockerfile   | Arquivo de script que define as instruções para construir uma imagem Docker               |
-| Docker Hub   | Repositório público onde imagens Docker são armazenadas e compartilhadas                  |
-| Volume       | Espaço de armazenamento persistente para salvar dados fora do contêiner                   |
-| Rede         | Mecanismo que possibilita a comunicação entre contêineres e o host                        |
-| Orquestração | Ferramentas para gerenciar múltiplos contêineres, como Docker Swarm e Kubernetes          |
 
 ## <a id="beneficios-docker">Benefícios do Docker</a>
 
