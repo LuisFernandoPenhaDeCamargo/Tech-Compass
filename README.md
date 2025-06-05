@@ -1,6 +1,9 @@
 <!--
 Diretrizes pessoais de contribuição:
 - A estrutura dos temas será definida conforme a necessidade de incluir conteúdos específicos que precisei estudar
+
++ Template para tabelas
++ O repositório já está muito grande? Os temas de cada categoria já deveriam ter repositórios separados?
 -->
 
 # Tech Compass
