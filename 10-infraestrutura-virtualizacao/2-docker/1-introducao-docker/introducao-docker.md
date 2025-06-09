@@ -8,8 +8,9 @@
 2. [O que é Docker?](#docker)
 3. [Principais Conceitos de Docker](#principais-conceitos-docker)
 4. <a id="conteineres-vs-maquinas-virtuais">[Contêineres vs. Máquinas Virtuais](./1-conteineres-vs-maquinas-virtuais.md)</a> *(redireciona para outro documento)*
-5. <a id="">[Por que Usar Docker?]()</a>
-6. <a id="">[Primeiro Exemplo "Hello World"]()</a>
+5. <a id="casos-uso-docker">[Casos de Uso do Docker](./2-casos-uso-docker.md)</a>  *(redireciona para outro documento)*
+6. <a id="">[Por que Usar Docker?]()</a>
+7. <a id="">[Primeiro Exemplo "Hello World"]()</a>
 
 ## <a id="containerizacao">1. O que é Containerização?</a>
 

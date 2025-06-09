@@ -13,49 +13,8 @@ TODO:
 
 ## Sumário
 
-- [Para que serve o Docker?](#para-serve-docker)
 - [Benefícios do Docker](#beneficios-docker)
 - [Conclusão](#conclusao)
-
-## <a id="para-serve-docker">Para que serve o Docker?</a>
-
-O Docker tem diversas aplicações práticas no desenvolvimento, entrega e operação de software. Algumas das principais são:
-
-### 1 Ambientes de Desenvolvimento Consistentes
-
-- **Problema:** um desenvolvedor cria uma aplicação que funciona no seu computador, mas falha ao ser executada em outro ambiente, como um servidor ou a máquina de outro desenvolvedor
-- **Solução:** o Docker padroniza o ambiente, garantindo que a aplicação funcione de forma idêntica em **qualquer máquina**, seja local, em um servidor ou dentro de um pipeline CI/CD
-- **Exemplo:** um time de desenvolvimento pode usar Docker para definir o mesmo ambiente de desenvolvimento para todos, incluindo a versão exata do Node.js, Python, e outras dependências
-
-### 2 Portabilidade
-
-- **Problema:** migrar uma aplicação de um servidor para outro exige ajustes de configuração e instalação de dependências
-- **Solução:** o Docker empacota a aplicação e suas dependências dentro de um contêiner, tornando-a altamente portátil entre diferentes servidores e provedores de nuvem
-- **Exemplo:** um aplicativo criado e testado no ambiente local pode ser implantado em produção sem necessidade de modificar o código ou as configurações
-
-### 3 Desempenho e Eficiência
-
-- **Problema:** **máquinas virtuais (VMs)** consomem muitos recursos, pois cada VM possui seu próprio sistema operacional
-- **Solução:** o Docker compartilha o kernel do sistema operacional do host, tornando os contêineres mais leves, rápidos e eficientes em relação às VMs
-- **Exemplo:** enquanto uma VM pode levar minutos para iniciar, um contêiner Docker sobe em **milissegundos**
-
-### 4 Entrega Contínua (CI/CD)
-
-- **Problema:** pipelines de CI/CD precisam de ambientes consistentes para executar testes e builds sem variações
-- **Solução:** o Docker permite que cada etapa do pipeline (build, teste e deploy) seja executada dentro de contêineres **isolados**, garantindo que o ambiente de teste seja idêntico ao de produção
-- **Exemplo:** ferramentas de CI/CD como GitHub Actions, Jenkins e GitLab CI utilizam Docker para rodar **testes automatizados** e compilar aplicações de forma previsível
-
-### 5 Execução Isolada de Aplicações
-
-- **Problema:** rodar múltiplas aplicações ou serviços no mesmo servidor pode gerar conflitos (exemplo: portas, dependências ou versões diferentes de bibliotecas)
-- **Solução:** cada contêiner Docker roda em um ambiente isolado, possuindo seu próprio espaço de processos, rede, sistema de arquivos e recursos, evitando conflitos com outras aplicações
-- **Exemplo:** é possível rodar duas versões diferentes do **Node.js** (exemplo: v16 e v18) no mesmo servidor, sem conflitos, pois cada versão estará em seu próprio contêiner
-
-### 6 Facilidade de Escalabilidade
-
-- **Problema:** escalar uma aplicação manualmente exige a configuração de novos servidores e ambientes, tornando o processo demorado e complexo
-- **Solução:** com ferramentas como **Docker Swarm** ou **Kubernetes**, é possível replicar e escalar contêineres de maneira automatizada, ajustando a capacidade conforme a demanda
-- **Exemplo:** uma aplicação de e-commerce pode iniciar com apenas uma instância de um contêiner e, em momentos de alta demanda, escalar automaticamente para dez ou mais instâncias
 
 ## <a id="beneficios-docker">Benefícios do Docker</a>
 

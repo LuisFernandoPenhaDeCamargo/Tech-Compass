@@ -31,8 +31,6 @@ Máquinas Virtuais
 - Em **cenários legados** que dependem de configurações de SO específicas ou de hipervisores
 - Para **segurança mais rígida**, quando o compartilhamento de kernel não atende aos requisitos de compliance
 
-Essa comparação ajuda a entender porque o Docker
-
-Essa comparação ajuda a entender por que o Docker (e a containerização) tornou‑se tão popular: ele combina portabilidade e leveza, mantendo isolamentos suficientes para a maioria das aplicações modernas.
+Essa comparação ajuda a entender por que o Docker (e a containerização) tornou-se tão popular: ele combina portabilidade e leveza, mantendo isolamentos suficientes para a maioria das aplicações modernas.
 
 ## [[ Voltar para: Introdução ao Docker ]](./introducao-docker.md#conteineres-vs-maquinas-virtuais)
