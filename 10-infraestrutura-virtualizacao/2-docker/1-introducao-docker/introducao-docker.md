@@ -1,16 +1,13 @@
 # Introdução ao Docker
 
-<!-- TODO: linkar este ponto com "Python". -->
-
 ## Sumário
 
 1. [O que é Containerização?](#containerizacao)
 2. [O que é Docker?](#docker)
 3. [Principais Conceitos de Docker](#principais-conceitos-docker)
-4. <a id="conteineres-vs-maquinas-virtuais">[Contêineres vs. Máquinas Virtuais](./1-conteineres-vs-maquinas-virtuais.md)</a> *(redireciona para outro documento)*
-5. <a id="casos-uso-docker">[Casos de Uso do Docker](./2-casos-uso-docker.md)</a>  *(redireciona para outro documento)*
-6. <a id="">[Por que Usar Docker?]()</a>
-7. <a id="">[Primeiro Exemplo "Hello World"]()</a>
+4. <a id="conteineres-vs-maquinas-virtuais">[Contêineres vs. Máquinas Virtuais](./4-conteineres-vs-maquinas-virtuais.md)</a> *(redireciona para outro documento)*
+5. <a id="casos-uso-docker">[Casos de Uso do Docker](./5-casos-uso-docker.md)</a>  *(redireciona para outro documento)*
+6. <a id="por-que-usar-docker">[Por que Usar Docker?](./6-por-que-usar-docker.md)</a> *(redireciona para outro documento)*
 
 ## <a id="containerizacao">1. O que é Containerização?</a>
 

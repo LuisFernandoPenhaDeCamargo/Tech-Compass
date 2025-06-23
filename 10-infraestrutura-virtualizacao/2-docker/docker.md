@@ -1,5 +1,11 @@
 # Docker
 
+<!--
+TODO:
+- Template: limitar o número de linhas por arquivo? Aproximadamente 50 linhas máximas?
+- Acredito ser necessário antecipar a categoria Sistemas Operacionais, devido a seções como "Kernel"
+-->
+
 ## Sumário
 
 01. <a id="introducao-docker">[Introdução ao Docker](./1-introducao-docker/introducao-docker.md)</a>  

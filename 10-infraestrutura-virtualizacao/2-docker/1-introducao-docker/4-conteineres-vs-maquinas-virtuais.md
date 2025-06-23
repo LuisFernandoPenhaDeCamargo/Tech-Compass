@@ -1,11 +1,5 @@
 # 4. Contêineres vs. Máquinas Virtuais
 
-<!--
-TODO:
-- Linkar este ponto com "Kernel"
-- Acredito ser necessário antecipar a categoria Sistemas Operacionais, devido a seções como "Kernel"
--->
-
 Ao contrário das máquinas virtuais, que replicam um sistema operacional completo para cada instância, os contêineres compartilham o mesmo kernel do sistema operacional do host. Isso os torna **mais leves, rápidos e eficientes**, reduzindo o consumo de recursos e melhorando a escalabilidade das aplicações.
 
 |      Característica      |                                  Contêineres                                  |                    Máquinas Virtuais                   |
