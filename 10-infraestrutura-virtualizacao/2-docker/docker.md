@@ -13,7 +13,7 @@ TODO:
 02. <a id="instalacao-configuracao">[Instalação e Configuração](./2-instalacao-configuracao/instalacao-configuracao.md)</a>  
     Como instalar o Docker e configurar o ambiente para uso.
 03. <a id="arquitetura-docker">[Arquitetura do Docker](./3-arquitetura-docker/arquitetura-docker.md)</a>  
-    Entender a estrutura interna do Docker (imagens, contêineres, registries, etc.).
+    Entender a estrutura interna do Docker.
 04. <a id="criacao-gerenciamento-imagens">[Criação e Gerenciamento de Imagens](./4-criacao-gerenciamento-imagens/criacao-gerenciamento-imagens.md)</a>  
     Aprender a construir imagens com Dockerfile, explorar a estrutura interna das imagens e publicá-las.
 05. <a id="gerenciamento-conteineres">[Gerenciamento de Contêineres](./5-gerenciamento-conteineres/gerenciamento-conteineres.md)</a>  
