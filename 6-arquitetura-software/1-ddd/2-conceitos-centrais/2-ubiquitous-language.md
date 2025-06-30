@@ -2,7 +2,7 @@
 
 Ubiquitous Language é um conceito central no DDD que se refere a uma **linguagem comum e consistente, compartilhada entre desenvolvedores e especialistas do negócio**. Essa linguagem utiliza termos e definições específicos para descrever o domínio de forma precisa, reduzindo ambiguidades e facilitando a comunicação. Ao adotar uma Linguagem Ubíqua, todas as partes envolvidas podem colaborar de maneira mais eficaz, garantindo que o modelo de domínio reflita fielmente a realidade e os processos do negócio.
 
-## Exemplo
+## Exemplos
 
 Para ilustrar o conceito de Linguagem Ubíqua no DDD, vamos considerar alguns exemplos práticos:
 

@@ -36,29 +36,29 @@ CMD ["python3", "/app/main.py"] # Camada 5: instrução de inicialização
 
 ## Limpeza e Manutenção do Cache
 
-### Limpeza e Manutenção do Cache
-
 Com o tempo, imagens antigas ou camadas órfãs podem acumular-se:
 
-* **Remover imagens dangling**
+- **Remover imagens dangling**
 
-  ```bash
-  docker image prune
-  ```
-* **Limpar todos os recursos não usados**
+```bash
+docker image prune
+```
 
-  ```bash
-  docker system prune --volumes
-  ```
-* **Limpar cache de build explicitamente**
+- **Limpar todos os recursos não usados**
 
-  ```bash
-  docker builder prune
-  ```
-* **Otimizar Dockerfiles**
+```bash
+docker system prune --volumes
+```
 
-  * Agrupar comandos para diminuir o número de camadas.
-  * Ordenar instruções para maximizar reuse de cache (etapas menos voláteis primeiro).
+- **Limpar cache de build explicitamente**
+
+```bash
+docker builder prune
+```
+
+- **Otimizar Dockerfiles**
+  + Agrupar comandos para diminuir o número de camadas
+  + Ordenar instruções para maximizar reuse de cache (etapas menos voláteis primeiro)
 
 Manter a limpeza do cache e a boa organização do Dockerfile garante builds rápidos e um ambiente de storage enxuto.
 

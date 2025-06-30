@@ -4,6 +4,9 @@ Diretrizes pessoais de contribuição:
 
 + Template para tabelas
 + O repositório já está muito grande? Os temas de cada categoria já deveriam ter repositórios separados?
++ Termine de elaborar o material sobre Docker, depois de você obter experiência nele, faça uma revisão
++ Não acho mais uma boa ideia linkar todos os conteúdos do repositório, devido ao seguinte racíocinio, para estudar determinado conteúdo, certos conhecimentos são pré requisito
++ Docker
 -->
 
 # Tech Compass

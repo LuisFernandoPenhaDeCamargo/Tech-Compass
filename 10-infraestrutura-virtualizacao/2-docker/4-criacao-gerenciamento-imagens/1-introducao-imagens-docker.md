@@ -20,7 +20,7 @@ As **imagens Docker** são o ponto de partida para criar contêineres. Elas cons
 2. **Listar:** verificar as imagens locais com `docker images` ou `docker image ls`
 3. **Excluir:** remover imagens obsoletas com `docker rmi name-image:tag` ou `docker image prune`
 
-## Exemplo
+## Exemplos
 
 ### 1. Exemplo Rápido
 
