@@ -57,8 +57,8 @@ docker builder prune
 ```
 
 - **Otimizar Dockerfiles**
-  + Agrupar comandos para diminuir o número de camadas
-  + Ordenar instruções para maximizar reuse de cache (etapas menos voláteis primeiro)
+    + Agrupar comandos para diminuir o número de camadas
+    + Ordenar instruções para maximizar reuse de cache (etapas menos voláteis primeiro)
 
 Manter a limpeza do cache e a boa organização do Dockerfile garante builds rápidos e um ambiente de storage enxuto.
 

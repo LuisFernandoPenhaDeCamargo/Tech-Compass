@@ -2,7 +2,10 @@
 
 <!--
 TODO:
+- Criar um exemplo prático — como uma analogia com uma receita de bolo — que utilize Dockerfile, imagens e contêineres
+- Em relação às seções: a seção "Boas Práticas" requer um certo domínio do assunto. Acho interessante incluir, mais ao final do tema, uma seção "Dificuldades Enfrentadas", destacando situações vivenciadas e como foram superadas.
 - Template: limitar o número de linhas por arquivo? Aproximadamente 50 linhas máximas?
+- Template: definir o modelo para tabelas, padronizar a seção "Exemplos" e criar um documento explicando a estrutura hierárquica do repositório (há uma estrutura bem definida em study-resource/2025-06-30.md)
 - Acredito ser necessário antecipar a categoria Sistemas Operacionais, devido a seções como "Kernel"
 -->
 

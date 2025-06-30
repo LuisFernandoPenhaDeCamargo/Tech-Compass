@@ -20,26 +20,26 @@ O Docker utiliza um **sistema de arquivos em camadas**, baseado em técnicas de 
 
 ### 1. Exemplo Visual
 
-```
-┌─────────────────────────────────┐
-│   Camada de Escrita (contêiner)│  ← modificações em runtime
-├─────────────────────────────────┤
-│   Camada 5: CMD …               │
-├─────────────────────────────────┤
-│   Camada 4: COPY app/ /app      │
-├─────────────────────────────────┤
-│   Camada 3: RUN apt-get install │
-├─────────────────────────────────┤
-│   Camada 2: RUN apt-get update  │
-├─────────────────────────────────┤
-│   Camada 1: FROM ubuntu:22.04   │
-└─────────────────────────────────┘
-          ↓ UnionFS mount
-┌─────────────────────────────────┐
-│       Sistema de Arquivos      │
-│       unificado para o         │
-│       contêiner em runtime     │
-└─────────────────────────────────┘
+```text
+┌───────────────────────────────┐
+│ Camada de Escrita (contêiner) │
+├───────────────────────────────┤
+│ Camada 5: CMD ...             │
+├───────────────────────────────┤
+│ Camada 4: COPY app/ /app      │
+├───────────────────────────────┤
+│ Camada 3: RUN apt-get install │
+├───────────────────────────────┤
+│ Camada 2: RUN apt-get update  │
+├───────────────────────────────┤
+│ Camada 1: FROM ubuntu:22.04   │
+└───────────────────────────────┘
+        ↓ UnionFS mount
+┌───────────────────────────────┐
+│      Sistema de Arquivos      │
+│       unificado para o        │
+│     contêiner em runtime      │
+└───────────────────────────────┘
 ```
 
 ## [[ Voltar para: Estrutura Interna das Imagens ]](./estrutura-interna-imagens.md#sistema-arquivos-unionfs)
