@@ -2,11 +2,33 @@
 
 <!--
 TODO:
+- Multi-stage builds podem gerar uma imagem menor? Porque ela vai possuir mais camadas, não? Como isso funciona?
+- Imagens derivadas de programas (como python:3.9) são mais leves do que imagens baseadas em sistemas operacionais (como ubuntu:22.04)?
+- Criação e Gerenciamento de Imagens → Estrutura Interna das Imagens → O diretório /app é criado por padrão?
 - Criar um exemplo prático — como uma analogia com uma receita de bolo — que utilize Dockerfile, imagens e contêineres
 - Em relação às seções: a seção "Boas Práticas" requer um certo domínio do assunto. Acho interessante incluir, mais ao final do tema, uma seção "Dificuldades Enfrentadas", destacando situações vivenciadas e como foram superadas.
 - Template: limitar o número de linhas por arquivo? Aproximadamente 50 linhas máximas?
+- Template: quando o conteúdo do documento não for extenso, não há necessidade de incluir um sumário
 - Template: definir o modelo para tabelas, padronizar a seção "Exemplos" e criar um documento explicando a estrutura hierárquica do repositório (há uma estrutura bem definida em study-resource/2025-06-30.md)
 - Acredito ser necessário antecipar a categoria Sistemas Operacionais, devido a seções como "Kernel"
+
+Estrutura do Repositório:
+
+01. Introdução ao Docker
+02. Instalação e Configuração
+03. Arquitetura do Docker
+04. Criação e Gerenciamento de Imagens
+05. Gerenciamento de Contêineres
+06. Networking no Docker
+07. Persistência de Dados
+08. Docker Compose
+09. Segurança no Docker
+10. Conceitos Avançados
+11. Manutenção e Boas Práticas Gerais
+12. Casos de Uso e Integração
+13. Documentação
+14. Ferramentas Complementares
+15. Material Complementar
 -->
 
 ## Sumário

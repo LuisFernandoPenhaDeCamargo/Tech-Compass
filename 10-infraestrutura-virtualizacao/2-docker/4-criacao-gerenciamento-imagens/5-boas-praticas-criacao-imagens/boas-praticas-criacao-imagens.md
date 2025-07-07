@@ -1,4 +1,4 @@
-# Boas Práticas na Criação de Imagens
+# 5. Boas Práticas na Criação de Imagens
 
 ## Sumário
 
