@@ -2,8 +2,57 @@
 
 <!--
 TODO:
-- Multi-stage builds podem gerar uma imagem menor? Porque ela vai possuir mais camadas, não? Como isso funciona?
-- Imagens derivadas de programas (como python:3.9) são mais leves do que imagens baseadas em sistemas operacionais (como ubuntu:22.04)?
+Updater
+
+log: /home/zoe/logs/updater.log
+
+"O gravador não estava subindo" -> "pasta /conteudo/stand estava esquisita" -> "extrai de novo o /conteudo/package-cache/stand.tar"
+
+`sudo install -m 0755 -d /etc/apt/keyrings`
+
+`curl -fsSL https://download.docker.com/linux/$(. /etc/os-release && echo "$ID")/gpg \
+    | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg`
+
+`echo \
+    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
+    https://download.docker.com/linux/$(. /etc/os-release && echo "$ID") \
+    $(lsb_release -cs) stable" \
+    | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
+
+`sudo apt update`
+
+`sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
+
+(adicionei o usuário ao grupo docker, mas não queria)
+
+`sudo groupadd docker`
+
+`sudo usermod -aG docker $USER`
+
+`newgrp docker`
+
+`groups` (deve listar algo como: lfernando docker)
+
+`sudo apt install -y upx`
+
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+`source $HOME/.cargo/env`
+
+`cargo install cross` (É necessário ter o Docker instalado e rodando.)
+
+`cargo install --locked cargo-make`
+
+---
+
++ Processo de aprendizado do conteúdo
++ Processo de refinamento
++ Padronização
++ Categorização das dúvidas
+
++ Multi-stage builds podem gerar uma imagem menor? Porque ela vai possuir mais camadas, não? Como isso funciona?
++ Imagens derivadas de programas (como python:3.9) são mais leves do que imagens baseadas em sistemas operacionais (como ubuntu:22.04)?
++ Considerando que imagens são compostas por camadas que se encontram no file system, quando baixamos uma conseguimos ver como elas estão compostas? Como funciona a segurança?
+
 - Criação e Gerenciamento de Imagens → Estrutura Interna das Imagens → O diretório /app é criado por padrão?
 - Criar um exemplo prático — como uma analogia com uma receita de bolo — que utilize Dockerfile, imagens e contêineres
 - Em relação às seções: a seção "Boas Práticas" requer um certo domínio do assunto. Acho interessante incluir, mais ao final do tema, uma seção "Dificuldades Enfrentadas", destacando situações vivenciadas e como foram superadas.

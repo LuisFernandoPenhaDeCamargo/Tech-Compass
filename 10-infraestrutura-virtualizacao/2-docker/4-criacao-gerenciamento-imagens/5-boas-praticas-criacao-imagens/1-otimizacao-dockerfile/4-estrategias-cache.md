@@ -72,22 +72,20 @@ Agora, pense em **reformas**:
 
 ### Exemplo em Dockerfile
 
-
-
-Imagine que você está construindo uma API Python com Flask:
+Imagine que você está construindo uma API Pyhton com Flask:
 
 ```dockerfile
 FROM python:3.11-slim
 
 WORKDIR /app
 
-# Copie só o arquivo de dependências
+# Copie só o arquivo de dependências.
 COPY requirements.txt .
 
-# Instale dependências
+# Instale dependências.
 RUN pip install -r requirements.txt
 
-# Agora copie o código da aplicação
+# Agora copie o código da aplicação.
 COPY . .
 
 CMD ["python", "app.py"]
@@ -95,15 +93,13 @@ CMD ["python", "app.py"]
 
 Se você mudar apenas o código, o `requirements.txt` continua igual, e o `pip install` não será reexecutado — ganhando velocidade e evitando reinstalações desnecessárias.
 
----
-
 ## Resumo
 
-| Boas Práticas com Cache                 | Benefício                                           |
-| --------------------------------------- | --------------------------------------------------- |
-| Ordenar `COPY` de dependências primeiro | Aproveita camadas já construídas                    |
-| Usar `RUN` combinados                   | Reduz número de camadas e melhora performance       |
-| Evitar `COPY . .` no início             | Impede invalidar todo o cache por arquivos mutáveis |
-| Separar código e configuração           | Mantém builds rápidos mesmo com mudanças frequentes |
+|        Boas Práticas com Cache        |                     Benefício                     |
+|---------------------------------------|---------------------------------------------------|
+|Ordenar `COPY` de dependências primeiro|         Aproveita camadas já construídas          |
+|         Usar `RUN` combinados         |   Reduz número de camadas e melhora performance   |
+|      Evitar `COPY . .` no início      |Impede invalidar todo o cache por arquivos mutáveis|
+|     Separar código e configuração     |Mantém builds rápidos mesmo com mudanças frequentes|
 
 ## [[ Voltar para: Otimização do Dockerfile ]](./otimizacao-dockerfile.md#estrategias-cache)
